@@ -1,0 +1,378 @@
+@font-face { 
+
+    font-family: Raleway; 
+
+    src: url('fonts/Raleway-Regular.ttf'); 
+
+} 
+body{
+    overflow-x: hidden;
+}
+*{
+
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.form-horizontal .control-label{text-align: left;}
+
+a{color:#222266;}
+
+.nav-tabs li a {
+
+    font-weight: 600;
+
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+
+    color:#fff;
+
+    background-color: #222266;
+
+    border:none;
+
+}
+
+.nav-tabs>li>a:hover{
+
+    color:#fff;
+
+    background-color: #222266;
+
+    border:none;    
+
+}
+
+.nav-tabs>li{margin-bottom: -2px;}
+
+.nav-tabs{border-bottom: 1px solid #222266;}
+
+.container{width:100%;}
+
+.sh-title{
+
+    background: #222266;
+
+    color: #fff;
+
+    padding: 10px 0px;
+
+    margin: 0px;
+
+}
+
+.sh_save_data {
+
+    background: #222266;
+    color: #fff;
+    width: 50%;
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+
+}
+.sh_save_data:hover{
+    background-color: #e5cb31;
+    color: #226;
+}
+
+.wp-core-ui select{
+
+    width: 100%;
+
+    max-width: 100%!important;
+
+}
+
+hr{
+
+    margin-bottom: 35px;
+
+    border-top: 5px solid #318dde;
+
+    border-style: double;
+
+}
+
+h3.sh_title{
+
+    text-decoration: underline;
+
+    color: #ffffff;
+
+    margin-bottom: 35px;
+
+    display: block;
+
+    clear: both;
+
+    overflow: hidden;
+
+    text-align: center;
+
+    background: #164688;
+
+    padding: 17px;
+
+}
+
+.sh_half{
+
+    width: 50%;
+
+}
+
+
+
+#v-pills-tab{
+    background: #222266;
+    padding: 20px;
+    height: 100%;
+    text-align: right;
+}
+
+.nav-pills .nav-link{
+
+    color: #fff;
+
+    border: none;
+
+    border-radius: unset;
+
+    font-size: 14px;
+
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+
+    background-color: #e5cb31;
+
+    color: #fff!important;
+
+}
+
+    
+
+.fleft{
+
+    float: left;
+
+}
+
+.fright{
+
+    float: right;
+
+}
+
+.gray_back{
+
+    background: rgb(34 34 102 / 21%);
+
+    padding-top: 20px!important;
+
+    text-align: left;
+
+    padding-bottom: 10px
+}
+
+#v-pills-tabContent{
+
+    clear: both;
+
+    overflow: hidden;
+
+}
+
+.tab-pane img{max-width: 250px;}
+
+#adminmenu .wp-menu-image img{
+
+    max-width: 15px;
+
+}
+
+#adminmenu div.wp-menu-image img{
+    height: 20px;
+}
+
+a#v-pills-secondsection-tab:focus {
+
+    box-shadow: 0 0 0 1px #9e7626, 0 0 2px 1px rgb(158 118 38);
+
+    outline: 1px solid transparent;
+
+}
+
+.btn-info {
+
+    color: #fff!important;
+
+    background-color: #222266!important;
+
+    border-color: #222266!important;
+
+}
+
+.btn-info:hover {
+
+    color: #222266!important;
+
+    background-color: #ffdf49!important;
+
+    border-color: #ffdf49!important;
+
+}
+
+/* schedule Page Styling */
+#content-wrapper {
+	width: calc( 100vw - 210px);
+	overflow: auto;
+}
+#content-wrapper .card-container{
+    background: #FFF;
+    box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    margin: 50px  auto;
+    display: table;
+}
+#content-wrapper .btn_choose_sent input[type=radio]  {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+  display: block;
+  margin: 10px;
+  width: 18px;
+  height: 18px;
+  border-radius: 12px;
+  cursor: pointer;
+  vertical-align: middle;
+  box-shadow: hsla(0,0%,100%,.15) 0 1px 1px, inset hsla(0,0%,0%,.5) 0 0 0 1px;
+  background-color: hsla(0,0%,0%,.2);
+      background-image: -webkit-radial-gradient( #fff 0%, #fff 15%, #fff 28%, #fff 70% );
+  background-repeat: no-repeat;
+  -webkit-transition: background-position .15s cubic-bezier(.8, 0, 1, 1),
+    -webkit-transform .25s cubic-bezier(.8, 0, 1, 1);
+  outline: none;
+}
+#content-wrapper input[type=radio]:checked::before {
+    content: none;
+}
+#content-wrapper .btn_choose_sent input:checked {
+  -webkit-transition: background-position .2s .15s cubic-bezier(0, 0, .2, 1),
+    -webkit-transform .25s cubic-bezier(0, 0, .2, 1);
+}
+#content-wrapper .btn_choose_sent input:active {
+  -webkit-transform: scale(1.5);
+  -webkit-transition: -webkit-transform .1s cubic-bezier(0, 0, .2, 1);
+}
+
+/* The up/down direction logic */
+
+#content-wrapper .btn_choose_sent input,
+#content-wrapper .btn_choose_sent input:active {
+  background-position: 0 24px;
+}
+#content-wrapper .btn_choose_sent input:checked {
+  background-position: 0 0;
+}
+#content-wrapper .btn_choose_sent input:checked ~ input,
+#content-wrapper .btn_choose_sent input:checked ~ input:active {
+  background-position: 0 -24px;
+}
+#content-wrapper  .btn_choose_sent{
+    background: #EF2D56;
+    color: #fff;
+    box-shadow: 0 10px 20px rgba(125, 147, 178, .3);
+    border: none; 
+     border-radius: 3px;
+    font-size: 16px;
+    line-height: 10px;
+    padding:  16px 20px 16px 38px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 30px;
+    transition: all .3s;
+    height: auto;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+}
+#content-wrapper  .btn_choose_sent input{
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    top: 2px;
+}
+#content-wrapper  .btn_choose_sent input:after{
+     position: absolute;
+    content: '';
+    width: 15rem;
+    left: 0;
+    right: 0;
+    /* background: red; */
+    /* z-index: -1; */
+    height: 40px;
+    top: -10px;
+}
+#content-wrapper .bg_btn_chose_1 {
+    background-color: #ffda1c !important;
+}
+#content-wrapper 
+
+.bg_btn_chose_2{
+    background-color: #222266 !important;
+}
+#content-wrapper .bg_btn_chose_3{
+    background-color: #359dcc !important;
+}
+ /*-=p=--=*/
+ #content-wrapper .btn_choose_sent_check_b{
+      background: #EF2D56;
+    color: #fff;
+    box-shadow: 0 10px 20px rgba(125, 147, 178, .3);
+    border: none; 
+     border-radius: 3px;
+    font-size: 16px;
+    line-height: 10px;
+    padding:  16px 20px 16px 46px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 30px;
+    transition: all .3s;
+    height: auto;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+}
+#content-wrapper .card-head{
+    position: relative;
+    color: #FFF;
+    border-bottom: 1px solid #CCC;
+    padding: 10px;	
+    background: #012a57;	
+    /*background: #f9faf3;	*/
+    border-top-right-radius:  10px ; 
+    border-top-left-radius:  10px ; 
+
+}
+#content-wrapper .card-head h2 {
+    margin: 0;
+    padding: 5px 0;
+}
+#content-wrapper .card-body{
+    padding: 15px;		
+}
+#content-wrapper .text-center {
+	text-align: center;
+}
+#content-wrapper .form-group {
+	margin-top: 15px;
+}
+.pd-10{
+    padding-top: 10px;
+}

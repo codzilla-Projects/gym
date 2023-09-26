@@ -1,0 +1,204 @@
+.toplevel_page_content-area.wp-has-submenu img{
+    width: 35px;
+    padding-top: 4px!important;
+}
+.bg-col12,
+.bg-col3{
+     background: #222266!important;
+     margin-bottom: 25px;
+}
+.bg-col12{
+     margin-bottom: 25px;
+}
+#adminmenuback,#adminmenu,#adminmenuwrap{
+    background: #222266!important;
+    text-align: left;
+}
+
+#adminmenu a:hover .wp-menu-image.dashicons-before.dashicons-database-add{
+    color: #fff;
+}
+
+#adminmenu .wp-submenu{
+    background: #222266!important;
+}
+#adminmenu .wp-not-current-submenu .wp-submenu, .folded #adminmenu .wp-has-current-submenu .wp-submenu {
+    min-width: 186px !important;
+}
+#adminmenu .wp-menu-image img{
+    max-width: 20px!important;
+    margin-top:2px;
+}
+#adminmenu .wp-menu-image img {
+    padding: 9px 0 0 0;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    height: 20px !important;
+    width: 20px !important;
+}
+#adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head, #adminmenu .wp-menu-arrow, #adminmenu .wp-menu-arrow div, #adminmenu li.current a.menu-top, #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, .folded #adminmenu li.current.menu-top, .folded #adminmenu li.wp-has-current-submenu{
+    background: #e5cb31!important;
+}
+
+#adminmenu .wp-submenu a:focus, #adminmenu .wp-submenu a:hover, #adminmenu a:hover, #adminmenu li.menu-top>a:focus {
+    color: #fff!important;
+    font-weight: 600!important;
+}
+
+#adminmenu li a:focus div.wp-menu-image:before, #adminmenu li.opensub div.wp-menu-image:before, #adminmenu li:hover div.wp-menu-image:before{
+    color: #fff!important;
+}
+
+#adminmenu li.menu-top:hover, #adminmenu li.opensub>a.menu-top, #adminmenu li>a.menu-top:focus{
+    color: #fff!important;
+}
+
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu,#adminmenu .wp-has-current-submenu div.wp-menu-image:before,#adminmenu li.wp-has-current-submenu:hover div.wp-menu-image:before{
+    color: #fff!important;
+}
+
+#adminmenu li.menu-top:hover, #adminmenu li.opensub>a.menu-top, #adminmenu li>a.menu-top:focus {
+
+    background-color: #e5cb31!important;
+}
+
+#adminmenu li.wp-has-submenu.wp-not-current-submenu.opensub:hover:before {
+    border-left-color: transparent!important;
+}
+#wpadminbar{
+    background: #222266;
+}
+#adminmenu li.wp-has-submenu.wp-not-current-submenu.opensub:hover:after{
+    border-right-color: #222266;
+}
+#adminmenu a:hover, #adminmenu li.menu-top:hover, #adminmenu li.opensub>a.menu-top, #adminmenu li>a.menu-top:focus{
+    background-color: #e5cb31;
+}
+#adminmenu .wp-submenu a:focus, #adminmenu .wp-submenu a:hover{
+    color: #e5cb31!important;
+}
+.backend-wrap label{
+    display: inline-block;
+    color: #130c49;
+    font-size: 17px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+.backend-wrap input{
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+}
+.card-coach{
+    background: #FFF;
+    border-radius: 15px;
+    width: 95%;
+    position: relative;
+    margin: 50px auto;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.card-coach .user-info img{
+    width: 200px;
+}
+.table-trainee  {
+    width: 100%;
+}
+.table-trainee  tbody{
+    text-align: center;
+}
+.table-trainee  tbody td {
+    padding: 7px 10px;
+}
+.table-trainee  tbody tr td{
+    border-bottom: 1px solid #f2f2fa;
+}
+.table-trainee  tbody tr:last-child td{
+    border-bottom: 0;
+}
+.table-trainee .trainee-header {
+    width: 100%;
+    background: #222266;
+}
+.table-trainee thead th:first-child{
+    border-top-left-radius: 15px;
+}
+.table-trainee thead th:last-child{
+    border-top-right-radius: 15px;
+
+}
+.table-trainee thead th {
+    color: #FFF;
+    padding: 7px 10px;
+}
+.user-info{
+    display: flex;
+}
+button[name="submit-delete"]{
+    background: red;
+    color: #FFF;
+    border:0;
+    border-radius: 5px;
+    padding: 7px 12px;
+    cursor: pointer;
+}
+.data-profile {
+    margin-left: 40px;
+}
+.data-profile a{
+    background-color: #e5cb31;
+    border:0;
+    width: 70px;
+    border-radius: 10px;
+    color: #222266;
+    padding: 7px 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.coaches-header{
+    font-weight: 700;
+    font-size: 18px;
+    color: #222266;
+    margin-top: 20px;   
+    width: 100%;
+    text-align: left;
+}
+.coaches-header th , .coach-item tr{
+    padding-bottom: 20px;
+    border-bottom: 1px  solid #f2f2fa;          
+}
+.coach-item td {
+    border-bottom: 1px  solid #f2f2fa;          
+    font-weight: 600;
+}
+.coach-item td a{
+    background-color: #e5cb31;
+    border:0;
+    width: 70px;
+    border-radius: 10px;
+    color: #222266;
+    padding: 7px 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.coach-item:last-child td{
+    border-bottom: 0;
+}
+.coach-item{
+  padding: 20px;
+  position: relative;
+}
+.coach-item img{
+  height: 60px;
+  width: 60px;
+  background: #fff;
+  border-radius: 50%;
+  padding: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  margin-top: 4px;
+}
+.table-ml{
+    width: 100%;
+    text-align: left;
+}
+

@@ -1,0 +1,16 @@
+[17-Jun-2021 00:36:28 UTC] PHP Fatal error:  Cannot redeclare sh_clean() (previously declared in /home3/codzilla/public_html/pullit/api/users/index.php:12) in /home3/codzilla/public_html/pullit/wp-content/themes/gym/lib/gym_functions.php on line 86
+[22-Jul-2021 19:03:39 America/Boise] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[22-Jul-2021 19:03:52 America/Boise] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[22-Jul-2021 19:03:57 America/Boise] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[22-Jul-2021 19:04:31 America/Boise] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[29-Jul-2021 12:52:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_user_custom() in /home3/codzilla/public_html/pullit/api/users/index.php:48
+Stack trace:
+#0 {main}
+  thrown in /home3/codzilla/public_html/pullit/api/users/index.php on line 48
+[29-Jul-2021 12:53:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_user_custom() in /home3/codzilla/public_html/pullit/api/users/index.php:48
+Stack trace:
+#0 {main}
+  thrown in /home3/codzilla/public_html/pullit/api/users/index.php on line 48
+[29-Jul-2021 13:02:57 UTC] WordPress database error Unknown column 'ID' in 'where clause' for query SELECT * FROM `wp_usermeta` WHERE `ID` = 66
+[29-Jul-2021 13:03:11 UTC] WordPress database error Unknown column 'ID' in 'where clause' for query SELECT * FROM `wp_usermeta` WHERE `ID` = 66
+[29-Jul-2021 13:03:56 UTC] WordPress database error Unknown column 'ID' in 'where clause' for query SELECT * FROM `wp_usermeta` WHERE `ID` = 66
